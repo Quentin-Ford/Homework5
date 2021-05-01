@@ -5,7 +5,7 @@ The app consists of two activities, the first containing just a start button whi
 
 ### App Walkthough GIF
 
-<img src="YOUR_GIF_URL_HERE" width=250><br>
+<img src="https://github.com/Quentin-Ford/Homework5/blob/master/HW5.gif" width=250><br>
 
 ### Notes
 The biggest challenge to me with this project was figuring out how to add the icons at random points on the screen, but I eventually figured it out. The only functionality 
