@@ -21,6 +21,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
         android:background="@drawable/button_border"
+        android:onClick="pressDone"
         android:text="Done"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -32,6 +33,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginBottom="16dp"
         android:background="@drawable/button_border"
+        android:onClick="pressUndo"
         android:text="Undo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -42,6 +44,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:background="@drawable/button_border"
+        android:onClick="pressClear"
         android:text="Clear"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -54,6 +57,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginBottom="20dp"
         android:background="@android:color/holo_red_dark"
+        android:onClick="pressRed"
         android:text="Red"
         app:layout_constraintBottom_toTopOf="@+id/undoButton"
         app:layout_constraintStart_toStartOf="parent" />
@@ -64,6 +68,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:background="@android:color/holo_blue_dark"
+        android:onClick="pressBlue"
         android:text="Blue"
         app:layout_constraintBottom_toTopOf="@+id/clearButton"
         app:layout_constraintEnd_toEndOf="parent"
@@ -76,6 +81,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="20dp"
         android:background="@android:color/holo_green_dark"
+        android:onClick="pressGreen"
         android:text="Green"
         app:layout_constraintBottom_toTopOf="@+id/doneButton"
         app:layout_constraintEnd_toEndOf="parent" />
